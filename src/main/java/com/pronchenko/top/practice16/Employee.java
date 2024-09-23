@@ -3,7 +3,7 @@ package com.pronchenko.top.practice16;
 public class Employee {
     private String fullName;
     private Payment payment;
-    public int children;
+//    public int children;
 
 
     public Employee(String fullName/*, int children*/) {
@@ -27,11 +27,11 @@ public class Employee {
         this.payment = payment;
     }
 
-    public int getChildren() {
-        return children;
-    }
-
-    public void setChildren(int children) {
-        this.children = children;
-    }
+//    public int getChildren() {
+//        return children;
+//    }
+//
+//    public void setChildren(int children) {
+//        this.children = children;
+//    }
 }
